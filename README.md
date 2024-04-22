@@ -9,6 +9,14 @@ This Python script extracts prices from HTML content using regular expressions.
 3. Provide the HTML content containing the price.
 4. The script will extract and display the price.
 
+#License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+css
+Copy code
+
+You can save this content in a file named `README.md` in your project direct
+
 ## Example
 
 ```python
@@ -20,10 +28,3 @@ m = re.match('<p>(.+)<\/p>', html_content)
 if m:
     print(m.group(1))
 
-#License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-css
-Copy code
-
-You can save this content in a file named `README.md` in your project direct
