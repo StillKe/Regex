@@ -5,7 +5,7 @@ This Python script extracts prices from HTML content using regular expressions.
 ## Usage
 
 1. Ensure you have Python installed on your system.
-2. Run the script `price_extractor.py`.
+2. Run the script `extract_price_from_html.py`.
 3. Provide the HTML content containing the price.
 4. The script will extract and display the price.
 
